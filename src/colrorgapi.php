@@ -4,6 +4,9 @@
  * Description of colrorgapi
  * @author do9iigane
  */
+
+namespace colrlib\src;
+
 class colrorgapi {
 
     var $colrorgAPI = 'http://www.colr.org/json';

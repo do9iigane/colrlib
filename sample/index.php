@@ -1,8 +1,13 @@
 <?php
-require_once 'lib/colrorgapi.php';
-$colrapi = new colrorgapi();
+namespace colrlib\sample;
+include '../src/colrorgapi.php';
+
+use colrlib\src\colrorgapi;
+
+$colrapi = new colrorgapi;
 $color = $colrapi->getColor('rand',10);
 $latest = $colrapi->getColor('latest');
+
 
 ?>
 
